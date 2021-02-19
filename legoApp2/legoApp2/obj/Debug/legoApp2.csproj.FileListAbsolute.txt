@@ -1,0 +1,94 @@
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\ApplicationInsights.config
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\csc.exe
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\vbc.exe
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\legoApp2.dll.config
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\legoApp2.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\legoApp2.pdb
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.Web.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Helpers.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Mvc.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Razor.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.Web.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Razor.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Helpers.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\bin\System.Web.Mvc.xml
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\obj\Debug\legoApp2.csprojResolveAssemblyReference.cache
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\obj\Debug\legoApp2.dll
+C:\Users\Noman\Desktop\Ny mappe\legoApp2\legoApp2\obj\Debug\legoApp2.pdb
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\ApplicationInsights.config
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\csc.exe
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\vbc.exe
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\legoApp2.dll.config
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\legoApp2.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\legoApp2.pdb
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.Web.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Helpers.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Mvc.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Razor.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.Web.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Razor.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Helpers.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\bin\System.Web.Mvc.xml
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\obj\Debug\legoApp2.csprojAssemblyReference.cache
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\obj\Debug\legoApp2.csproj.CoreCompileInputs.cache
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\obj\Debug\legoApp2.csproj.CopyComplete
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\obj\Debug\legoApp2.dll
+C:\Users\Joker\Desktop\bachelor skole doc\legoApp2\legoApp2\obj\Debug\legoApp2.pdb

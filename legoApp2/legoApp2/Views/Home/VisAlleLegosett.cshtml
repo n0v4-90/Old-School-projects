@@ -1,0 +1,34 @@
+﻿
+@model IEnumerable<legoApp2.Models.Legosett>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VisAlleLegosett</title>
+</head>
+<body>
+    <div> 
+        <header>
+
+        <h1>Legosett</h1>
+</header>
+
+    <section id="LegosettListe">
+
+    @foreach (var legosett in Model){
+        <article>
+            <h3>@legosett.Navn</h3>
+            <p>Pris: @legosett.Pris,- NOK</p>
+            <p>Antall deler: @legosett.AntallDeler</p>
+            <img src="~/Bilder/@legosett.Bilde" alt="" />
+        </article>
+        }
+</section>
+    </div>
+</body>
+</html>

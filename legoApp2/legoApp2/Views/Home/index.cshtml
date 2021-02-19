@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>index</title>
+</head>
+<body>
+    <div> 
+            <header>
+            <h1>lego</h1>
+</header>
+        <section>
+
+            <nav>
+                <ul>
+
+                    <li>@Html.ActionLink("hjem", "Index", "home")</li>
+                    <li>@Html.ActionLink("om oss", "About", "home")</li>
+                    <li>@Html.ActionLink("buy", "buy", "home")</li>
+                </ul>
+
+            </nav> 
+            <h2>velkommen til den offisielle lego nettesiden </h2>
+        </section>
+    </div>
+</body>
+</html>
