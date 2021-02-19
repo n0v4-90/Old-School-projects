@@ -1,0 +1,140 @@
+ public ActionResult CreateMovie()
+        {
+            if (Session["LoggedIn"] != null)
+            {
+                try
+                {
+                    var db = new MovieAppDBEntities1();
+                    ViewBag.GenreId = new SelectList(db.Genres, "GenreId", "Genre");
+                    ViewBag.LanguageId = new SelectList(db.Languages, "LanguageId", "Language");
+                    return View();
+                }
+                catch (Exception e)
+                {
+                    return View(e);
+                }
+            }
+            else
+            {
+                return RedirectToAction("LogIn", "Home");
+            }
+        }
+
+       
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateMovie([Bind(Include = "Id,Title,ReleaseDate,Description,ImgSrc,GenreId,LanguageId,Duration")]HttpPostedFileBase file, Movie movie)
+        {
+            try
+            {
+                var db = new MovieAppDBEntities1();
+                if (file != null)
+                {
+                    String filename = Path.GetFileName(file.FileName);
+                    String path = Path.Combine(Server.MapPath("~/Content/Images"), filename);
+                    file.SaveAs(path);
+                    movie.ImgSrc = filename;
+                }
+                if (ModelState.IsValid)
+                {
+                   // var db = new MovieAppDBEntities1();
+                    {
+                        db.Movie.Add(movie);
+                        db.SaveChanges();
+                        return RedirectToAction("Index");
+                    }
+                }
+
+                ViewBag.GenreId = new SelectList(db.Genres, "GenreId", "Genre", movie.GenreId);
+                ViewBag.LanguageId = new SelectList(db.Languages, "LanguageId", "Language", movie.LanguageId);
+            }
+            catch(Exception e)
+            {
+                
+                return View(e);
+            }
+            return View(movie);
+        }
+
+
+public ActionResult EditMovie(int? id)
+        {
+            if (Session["LoggedIn"] != null)
+            {
+                if (id != null)
+                {
+                    //return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                    try
+                    {
+                        Movie movie = db.Movie.Find(id);
+                        if (movie == null)
+                        {
+                            return HttpNotFound();
+                        }
+                        ViewBag.GenreId = new SelectList(db.Genres, "GenreId", "Genre", movie.GenreId);
+                        ViewBag.LanguageId = new SelectList(db.Languages, "LanguageId", "Language", movie.LanguageId);
+                        return View(movie);
+                    }
+
+                    catch
+                    {
+                        ViewBag.Message = "Something went wrong";
+                        return RedirectToAction("Index", "Manage");
+                    }
+                }
+                else
+                {
+                    ViewBag.Message = "Something went wrong";
+                    return RedirectToAction("Index", "Manage");
+                }
+            }
+            else
+            {
+                return RedirectToAction("LogIn", "Home");
+            }
+        }
+
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditMovie([Bind(Include = "Id,Title,ReleaseDate,Description,ImgSrc,GenreId,LanguageId,Duration")] HttpPostedFileBase file, Movie movie)
+        {
+            try
+            {
+                var db = new MovieAppDBEntities1();
+                if (file != null)
+                {
+                    String filename = Path.GetFileName(file.FileName);
+                    String path = Path.Combine(Server.MapPath("~/Content/Images"), filename);
+                    file.SaveAs(path);
+                    movie.ImgSrc = filename;
+                }
+                if (ModelState.IsValid)
+                {
+                    var editMovie = (from movies in db.Movie
+                                     where movies.Id == movie.Id
+                                     select movies).SingleOrDefault();
+
+                    editMovie.Title = movie.Title;
+                    editMovie.Description = movie.Description;
+                    editMovie.Duration = movie.Duration;
+                    editMovie.GenreId = movie.GenreId;
+                    editMovie.LanguageId = movie.LanguageId;
+                    editMovie.ReleaseDate = movie.ReleaseDate;
+                    editMovie.ImgSrc = movie.ImgSrc;
+                    
+                    //var db = new MovieAppDBEntities1();
+                    //db.Entry(movie).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+
+                ViewBag.GenreId = new SelectList(db.Genres, "GenreId", "Genre", movie.GenreId);
+                ViewBag.LanguageId = new SelectList(db.Languages, "LanguageId", "Language", movie.LanguageId);
+                return View(movie);
+            }
+            catch
+            {
+                return RedirectToAction("");
+            }
+        }
