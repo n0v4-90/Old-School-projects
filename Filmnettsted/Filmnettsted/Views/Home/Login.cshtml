@@ -1,0 +1,48 @@
+﻿@model Filmnettsted.Models.Registration
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@if(ViewBag.loggedin != null)
+{ 
+    if (ViewBag.loggedin == true)
+{
+    <p>successfully loggedin!! @Session["Username"].ToString()</p>
+}else
+{
+        <p>Username or Password is wrong</p>
+    }
+}
+
+
+@using (Html.BeginForm())
+
+{
+
+   @Html.ValidationSummary(true)
+    <div>
+        <div>
+            <label>
+                Username
+                @Html.TextBoxFor(usrName => usrName.Username)<br />
+                @Html.ValidationMessageFor(validateUsername => validateUsername.Username)<br />
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Password
+                @Html.PasswordFor(pass => pass.Password)<br />
+                @Html.ValidationMessageFor(valdatePassword => valdatePassword.Password)<br />
+            </label>
+            <br />
+            <input type="submit" value="login" />
+        </div>
+      </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Home")
+</div>

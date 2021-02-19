@@ -1,0 +1,95 @@
+﻿@model Filmnettsted.Models.Movie
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Create", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    
+    <div>
+        <h4>Movie</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div>
+            @Html.LabelFor(model => model.Title)
+            <div>
+                @Html.EditorFor(model => model.Title)
+                @Html.ValidationMessageFor(model => model.Title)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Releasedate)
+            <div>
+                @Html.EditorFor(model => model.Releasedate)
+                @Html.ValidationMessageFor(model => model.Releasedate)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Description)
+            <div>
+                @Html.EditorFor(model => model.Description)
+                @Html.ValidationMessageFor(model => model.Description)
+            </div>
+        </div>
+
+        <div>
+            <label>
+                Navn
+                @Html.TextBoxFor(movie => movie.Image)
+            </label><br />
+            <label>
+                image
+                <input type="file" name="file" />
+            </label><br />
+
+        </div>
+
+
+        <div>
+            @Html.LabelFor(model => model.Image)
+            <div>
+                @Html.EditorFor(model => model.Image)
+                @Html.ValidationMessageFor(model => model.Image)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.GenreId, "GenreId")
+            <div>
+                @Html.DropDownList("GenreId")
+                @Html.ValidationMessageFor(model => model.GenreId)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.LanguageId, "LanguageId")
+            <div>
+                @Html.DropDownList("LanguageId")
+                @Html.ValidationMessageFor(model => model.LanguageId)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Duration)
+            <div>
+                @Html.EditorFor(model => model.Duration)
+                @Html.ValidationMessageFor(model => model.Duration)
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

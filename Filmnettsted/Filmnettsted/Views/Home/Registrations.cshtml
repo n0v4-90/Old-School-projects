@@ -1,0 +1,59 @@
+﻿@model Filmnettsted.Models.Registration
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Register</h2>
+    
+
+@using (Html.BeginForm())
+{
+
+    @Html.ValidationSummary(false)
+
+
+    <div id="container">
+        <div>
+            <label>
+                @Html.LabelFor(model => model.Firstname)<br />
+                @Html.TextBoxFor(firstName => firstName.Firstname)<br />
+                @Html.ValidationMessageFor(model => model.Firstname)
+            </label>
+        </div>
+
+        <div>
+            <label>
+                @Html.LabelFor(model => model.Lastname)<br />
+                @Html.TextBoxFor(model => model.Lastname)<br />
+                @Html.ValidationMessageFor(model => model.Lastname)
+            </label>
+        </div>
+
+        <div>
+            <label>
+                @Html.LabelFor(model => model.Username)<br />
+                @Html.TextBoxFor(model => model.Username)<br />
+                @Html.ValidationMessageFor(model => model.Username)
+            </label>
+        </div>
+
+        <div>
+            <label>
+                @Html.LabelFor(model => model.Password)<br />
+                @Html.PasswordFor(model => model.Password)<br />
+                @Html.ValidationMessageFor(model => model.Password)
+            </label>
+        </div>
+
+        <div>
+            <label>
+                @Html.LabelFor(model => model.Email)<br />
+                @Html.TextBoxFor(model => model.Email)<br />
+               @Html.ValidationMessageFor(model => model.Email)
+            </label>
+        </div>
+        <br />
+        <input type="submit" value="Register" class="btn btn-default" />
+    </div>
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/CSS/MainStyle.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Movie</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>@Html.ActionLink("All Movies", "Index", "home")</li>
+                <li>@Html.ActionLink("Upload image", "MovieImages", "home")</li>
+                <li>@Html.ActionLink("Registration", "Registrations", "home")</li>
+                <li>@Html.ActionLink("Login", "Login", "home")</li>
+            </ul>
+        </nav>
+
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

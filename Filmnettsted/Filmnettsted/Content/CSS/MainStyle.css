@@ -1,0 +1,24 @@
+﻿body {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+
+container{
+    width: 100%;
+}
+article{
+     background-color: yellow;
+}
+
+#container{
+    float: left;
+}
+
+img{
+    width: 50%;
+}
+

@@ -1,0 +1,24 @@
+﻿@model Filmnettsted.Models.Movie
+@{
+    ViewBag.Title = "UploadImage";
+}
+
+@{
+    <p>@Session["Username"] You are logged in as Admin</p>
+}
+
+
+<h2>MovieImages</h2>
+@using (Html.BeginForm("UploadImage", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <label>
+        Name
+        @Html.TextBoxFor(movie => movie.Title)
+
+    </label><br />
+    <label>
+        image
+        <input type="file" name="file" />
+    </label><br />
+    <input type="submit" value="Upload Image" />
+}

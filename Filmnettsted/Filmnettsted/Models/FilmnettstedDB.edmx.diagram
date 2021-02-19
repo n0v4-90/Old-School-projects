@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf55d1f3d5194fb2b4ef50a25d2e62e8" Name="Diagram1">
+        <EntityTypeShape EntityType="FilmnettstedDBModel.Genres" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmnettstedDBModel.Languages" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmnettstedDBModel.Movie" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="FilmnettstedDBModel.FK_Movie_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmnettstedDBModel.FK_Movie_Languages" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FilmnettstedDBModel.Registration" Width="1.5" PointX="3.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

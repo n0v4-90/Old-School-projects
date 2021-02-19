@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Filmnettsted.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movie Lists</h2>
+<hr />
+
+@foreach (var MovieList in Model)
+{
+    <article>
+        <div id="container">
+            <img src="~/Image/@MovieList.Image" alt="@MovieList.Title" />
+            <h1>@MovieList.Title</h1>
+            <p><b>Releasedate:</b> @MovieList.Releasedate</p>
+            <p><b>duration:</b> @MovieList.Duration</p>
+            <p><b>Description:</b><br> @MovieList.Description</p>
+            <p><b>Genre:</b><br> @MovieList.Genres.Genre</p>
+        </div>
+
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { id = MovieList.Id })
+            @Html.ActionLink("Create", "Create", new { id = MovieList.Id })
+            @Html.ActionLink("Delete", "Delete", new { id = MovieList.Id })
+        </div>
+        <br />
+    </article>
+}

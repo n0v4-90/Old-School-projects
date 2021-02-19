@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Filmnettsted.Models.Movie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All Movies</h2>
+
+@{
+    <p>@Session["Username"] You are logged in as Admin</p>
+}
+
+@foreach (var list in Model)
+{
+
+    <article>
+        <div id="container">
+            <img src="~/Image/@list.Image" alt="@list.Title" />
+            <h1>@list.Title</h1>
+            <p><b>Release date</b> @list.Releasedate</p>
+            <p><b>duration</b> @list.Duration</p>
+            <p><b>Description</b><br> @list.Description</p>
+            <p><b>Genre:</b><br> @list.Genres.Genre</p>
+        </div>
+    </article>
+}
